@@ -1,5 +1,8 @@
+//This is including header files
 #include <iostream>
 using namespace std;
+
+//This is the user define datatype Node-class
 class Node{
 public:
 	Node *next;
@@ -9,6 +12,8 @@ public:
 		next = NULL;
 	}
 };
+
+//This is the Linklist class
 class LinkList{
 public:
 	int addData;
@@ -91,6 +96,8 @@ public:
 		cout << tail->data << "->NULL" << endl;
 	}
 };
+
+//This is the main function 
 int main(){
 	LinkList obj;
 	obj.AddNode(obj.addData);
